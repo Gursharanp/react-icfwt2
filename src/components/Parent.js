@@ -10,7 +10,7 @@ import Button from './Button'
    const incrementAge= useCallback(()=>{
     setAge(age+1);
   },[age])
-  
+
    const incrementSalery=useCallback(()=>{
     setSalery(salery+1000);
   },[salery])
